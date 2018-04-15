@@ -1,12 +1,12 @@
 # Problem Solving Kit
 A useful toolkit. Happy solving problems :)
 
-## Why 'box' instead of 'kit'?
-Because we had a hard time finding out why the name 'kit' fails make parser.
-
 ## Building
+[![Progress](https://img.shields.io/badge/progress-0%25-lightgrey.svg)](https://img.shields.io/badge/progress-0%25-lightgrey.svg)
 [![Build Status](https://travis-ci.org/GUIProgrammingAdvancer/ProblemSolvingKit.svg?branch=master)](https://travis-ci.org/GUIProgrammingAdvancer/ProblemSolvingKit)
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://img.shields.io/badge/stability-experimental-orange.svg)
+[![Qt5](https://img.shields.io/badge/Qt-5.10-green.svg)](https://img.shields.io/badge/Qt-5.10-green.svg)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
 
 Target: Windows x86-64(MINGW) with Qt5.
