@@ -30,7 +30,7 @@
      <pixmap resource="../resources.qrc">:/res/GUIPA.png</pixmap>
     </property>
    </widget>
-   <widget class="QPushButton" name="button_assistent">
+   <widget class="QPushButton" name="button_assistant">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -45,7 +45,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Problem Solving Assistent</string>
+     <string>Problem Solving Assistant</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_calculator">

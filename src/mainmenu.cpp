@@ -7,13 +7,14 @@ MainMenu::MainMenu(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    //connect signals and slots
-    connect(ui->button_assistent, SIGNAL(clicked(bool)), this, SLOT(summonAssistant()));
+    //connect signals and slots to summon apps
+    connect(ui->button_assistant, SIGNAL(clicked(bool)), this, SLOT(summonAssistant()));
     connect(ui->button_calculator, SIGNAL(clicked(bool)), this, SLOT(summonCalculator()));
     connect(ui->button_lottery, SIGNAL(clicked(bool)), this, SLOT(summonLottery()));
     connect(ui->button_meme, SIGNAL(clicked(bool)), this, SLOT(summonMeme()));
     connect(ui->button_exit, SIGNAL(clicked(bool)), this, SLOT(suicide()));
 
+    //connect s&s to recall menu ui when app suicides
     connect(this->myAssistant, SIGNAL(suicided()), this, SLOT(revive()));
     connect(this->myCalculator, SIGNAL(suicided()), this, SLOT(revive()));
     connect(this->myLottery, SIGNAL(suicided()), this, SLOT(revive()));
@@ -26,6 +27,7 @@ MainMenu::~MainMenu()
 }
 
 void MainMenu::summonAssistant(){
+    //summon assistant ui and hide main menu
     this->myAssistant->show();
     this->hide();
 }
@@ -46,10 +48,12 @@ void MainMenu::summonMeme(){
 }
 
 void MainMenu::revive(){
+    //show main menu again
     this->show();
 }
 
 void MainMenu::suicide(){
     //end of life
+    //emit signal to trigger suicide of QApplication.
     emit suiciding();
 }
