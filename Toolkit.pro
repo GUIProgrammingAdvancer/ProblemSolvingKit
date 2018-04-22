@@ -38,8 +38,8 @@ HEADERS += \
     src/mainmenu.h \
     src/calculator.h \
     src/assistant.h \
-    src/lottery.h \
-    src/meme.h
+    src/meme.h \
+    src/lottery.h
 
 FORMS += \
     src/mainmenu.ui \
