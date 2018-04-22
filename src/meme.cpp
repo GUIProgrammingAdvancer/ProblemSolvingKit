@@ -64,7 +64,7 @@ void Meme::loadMyMeme(){
 void Meme::loadLocalMeme() {
    QString *memePath = new QString(QFileDialog::getOpenFileName(
          this, QString("Select meme source"), "", "Image Files(*.jpg *.png)", 0, 0));
-   ui->statusbar->showMessage(QString("Loading ") + memePath, 1000);
+   ui->statusbar->showMessage(QString("Loading ") + *memePath, 1000);
 
    if(memePath->isEmpty()){
        QMessageBox::information(this, QString("Warning"), QString("No file selected."));
@@ -143,7 +143,7 @@ void Meme::updateMeme() {
 void Meme::saveMeme() {
     QString *savePath = new QString(QFileDialog::getSaveFileName(
                         this, QString("Select destination"), "", "Image Files(*.jpg *.png)",0,0));
-    ui->statusbar->showMessage(QString("Saving to ") + savePath, 1000);
+    ui->statusbar->showMessage(QString("Saving to ") + *savePath, 1000);
 
     if(savePath->isEmpty()){
         QMessageBox::information(this, QString("Warning"), QString("No destination selected."));
