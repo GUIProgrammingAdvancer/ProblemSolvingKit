@@ -208,6 +208,9 @@ border-image: url(:/res/BackGround.png);
         </property>
         <item>
          <widget class="QPushButton" name="button_assistant">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="sizePolicy">
            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -310,6 +313,9 @@ text-align : left;</string>
         </item>
         <item>
          <widget class="QPushButton" name="button_calculator">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="sizePolicy">
            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -412,6 +418,9 @@ text-align : left;</string>
         </item>
         <item>
          <widget class="QPushButton" name="button_lottery">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="sizePolicy">
            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
