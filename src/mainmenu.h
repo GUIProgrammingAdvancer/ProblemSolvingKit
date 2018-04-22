@@ -27,17 +27,17 @@ private slots:
     void summonCalculator();
     void summonLottery();
     void summonMeme();
-    void revive();
+    void revive(int appID);
     void suicide();
 
 private:
     Ui::MainMenu *ui;
 
     //applications
-    Assistant *myAssistant = new Assistant;
-    Calculator *myCalculator = new Calculator;
-    Lottery *myLottery = new Lottery;
-    Meme *myMeme = new Meme;
+    Assistant *myAssistant;
+    Calculator *myCalculator;
+    Lottery *myLottery;
+    Meme *myMeme;
 };
 
 #endif // MAINMENU_H
