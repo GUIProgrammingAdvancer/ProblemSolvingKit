@@ -1,5 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>res/GUIPA.png</file>
+        <file>res/BackGround.png</file>
+        <file>res/ICON/Assistant.png</file>
+        <file>res/ICON/Calculator.png</file>
+        <file>res/ICON/Exit.png</file>
+        <file>res/ICON/Lottery.png</file>
+        <file>res/ICON/Meme.png</file>
+        <file>res/Botton.png</file>
     </qresource>
 </RCC>
