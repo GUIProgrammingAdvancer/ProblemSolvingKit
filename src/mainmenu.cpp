@@ -6,7 +6,8 @@ MainMenu::MainMenu(QWidget *parent) :
     ui(new Ui::MainMenu)
 {
     ui->setupUi(this);
-
+    setWindowFlags(Qt::FramelessWindowHint);//无边框
+    setAttribute(Qt::WA_TranslucentBackground);//背景透明
     //connect signals and slots to summon apps
     connect(ui->button_assistant, SIGNAL(clicked(bool)), this, SLOT(summonAssistant()));
     connect(ui->button_calculator, SIGNAL(clicked(bool)), this, SLOT(summonCalculator()));

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>res/GUIPA.png</file>
+        <file>res/BackGround.png</file>
     </qresource>
 </RCC>
