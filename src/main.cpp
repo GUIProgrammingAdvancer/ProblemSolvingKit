@@ -3,9 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainMenu w;
-    w.show();
+    QApplication *a = new QApplication(argc, argv);
+    MainMenu *w = new MainMenu;
 
-    return a.exec();
+    //connect application and menu to perform suicide
+    a->connect(w, SIGNAL(suiciding()), a, SLOT(quit()));
+
+    //show the main menu and begin the program
+    w->show();
+
+    return a->exec();
 }
