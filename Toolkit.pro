@@ -28,13 +28,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     src/main.cpp \
-    src/mainmenu.cpp
+    src/mainmenu.cpp \
+    src/calculator.cpp \
+    src/assistant.cpp \
+    src/lottery.cpp \
+    src/meme.cpp
 
 HEADERS += \
-    src/mainmenu.h
+    src/mainmenu.h \
+    src/calculator.h \
+    src/assistant.h \
+    src/meme.h \
+    src/lottery.h
 
 FORMS += \
-    src/mainmenu.ui
+    src/mainmenu.ui \
+    src/calculator.ui \
+    src/assistant.ui \
+    src/lottery.ui \
+    src/meme.ui
 
 RESOURCES += \
     resources.qrc
