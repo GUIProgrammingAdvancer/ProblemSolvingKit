@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainMenu</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../res.qrc">
+    <normaloff>:/res/GUIPA.png</normaloff>:/res/GUIPA.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="logo">
     <property name="geometry">
@@ -27,10 +31,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../resources.qrc">:/res/GUIPA.png</pixmap>
+     <pixmap resource="../res.qrc">:/res/GUIPA.png</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="button_assistant">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -49,6 +56,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="button_calculator">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -67,6 +77,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="button_lottery">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -164,7 +177,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="../resources.qrc"/>
+  <include location="../res.qrc"/>
  </resources>
  <connections/>
 </ui>

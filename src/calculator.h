@@ -13,7 +13,7 @@ class Calculator : public QMainWindow
     Q_OBJECT
 
 signals:
-    void suicided();
+    void suicided(int);
 
 public:
     explicit Calculator(QWidget *parent = 0);

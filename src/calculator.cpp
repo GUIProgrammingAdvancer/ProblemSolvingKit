@@ -16,6 +16,6 @@ Calculator::~Calculator()
 void Calculator::closeEvent(QCloseEvent *event) {
     //detect the end of life of window.
     //emit signal calling mainmenu to revive.
-    emit suicided();
+    emit suicided(2);
     event->accept();
 }

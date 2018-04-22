@@ -16,6 +16,6 @@ Assistant::~Assistant()
 void Assistant::closeEvent(QCloseEvent *event) {
     //detect the end of life of window.
     //emit signal calling mainmenu to revive.
-    emit suicided();
+    emit suicided(1);
     event->accept();
 }

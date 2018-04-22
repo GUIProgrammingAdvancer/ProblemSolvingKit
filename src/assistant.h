@@ -13,7 +13,7 @@ class Assistant : public QMainWindow
     Q_OBJECT
 
 signals:
-    void suicided();
+    void suicided(int);
 
 public:
     explicit Assistant(QWidget *parent = 0);

@@ -1,15 +1,13 @@
 <RCC>
     <qresource prefix="/">
         <file>res/GUIPA.png</file>
+        <file>res/meme/0.png</file>
         <file>res/meme/1.png</file>
         <file>res/meme/2.png</file>
         <file>res/meme/3.png</file>
         <file>res/meme/4.png</file>
         <file>res/meme/5.png</file>
         <file>res/meme/6.png</file>
-        <file>res/meme/0.png</file>
-        <file>res/meme/7.png</file>
-        <file>res/meme/8.png</file>
         <file>res/meme/9.png</file>
         <file>res/meme/10.png</file>
         <file>res/meme/11.png</file>
@@ -23,7 +21,6 @@
         <file>res/meme/19.png</file>
         <file>res/meme/20.png</file>
         <file>res/meme/21.png</file>
-        <file>res/meme/22.png</file>
         <file>res/meme/23.png</file>
         <file>res/meme/24.png</file>
         <file>res/meme/25.png</file>
@@ -35,5 +32,9 @@
         <file>res/meme/31.png</file>
         <file>res/meme/32.png</file>
         <file>res/meme/33.png</file>
+        <file>res/meme/7.png</file>
+        <file>res/meme/22.png</file>
+        <file>res/meme/8.png</file>
+        <file>res/meme_logo.jpg</file>
     </qresource>
 </RCC>

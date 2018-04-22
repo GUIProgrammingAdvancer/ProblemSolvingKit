@@ -49,4 +49,4 @@ FORMS += \
     src/meme.ui
 
 RESOURCES += \
-    resources.qrc
+    res.qrc

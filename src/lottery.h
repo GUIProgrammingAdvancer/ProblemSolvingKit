@@ -13,7 +13,7 @@ class Lottery : public QMainWindow
     Q_OBJECT
 
 signals:
-    void suicided();
+    void suicided(int);
 
 public:
     explicit Lottery(QWidget *parent = 0);

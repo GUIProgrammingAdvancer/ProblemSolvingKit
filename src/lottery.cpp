@@ -16,6 +16,6 @@ Lottery::~Lottery()
 void Lottery::closeEvent(QCloseEvent *event) {
     //detect the end of life of window.
     //emit signal calling mainmenu to revive.
-    emit suicided();
+    emit suicided(3);
     event->accept();
 }
